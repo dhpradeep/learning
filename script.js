@@ -26,7 +26,13 @@ function histogram()
 	var div = document.createElement("div");
 	div.className = "history";
 	div.innerHTML = history;
-	element.insertBefore(div, element.childNodes[0]);
+	
+	if(history != "")
+	{
+
+		element.insertBefore(div, element.childNodes[0]);	
+	}
+	
 	//document.getElementById("history").innerHTML = history;
 }
 
