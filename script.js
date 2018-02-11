@@ -20,6 +20,7 @@ function e()
 
 function histogram()
 {
+	document.getElementById("myHist").style.visibility = "visible";
 	var history = document.getElementById("display").value;
 	var element = document.getElementById("histogram");
 

@@ -82,3 +82,10 @@ html
 	color: white;
 	right: -650px;
 }
+.sign
+{
+	background-color: #0aa00a !important;
+}
+#myHist{
+	visibility: hidden;
+}

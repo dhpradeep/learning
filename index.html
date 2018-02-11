@@ -16,23 +16,23 @@
 			
 
 			<p>	
-			<input type="button" class="button" value="C" onclick='histogram(); c("");'>
-			<input type="button" class="button" value="(" onclick='math("(")'>
-			<input type="button" class="button" value=")" onclick='math(")")'>
-			<input type="button" class="button" value="%" onclick='math("%")'>
+			<input type="button" class="button sign" value="C" onclick='histogram(); c("");'>
+			<input type="button" class="button sign" value="(" onclick='math("(")'>
+			<input type="button" class="button sign" value=")" onclick='math(")")'>
+			<input type="button" class="button sign" value="%" onclick='math("%")'>
 		</p>
 		<p>
 			<input type="button" class="button" value="7" onclick='math("7")'>
 			<input type="button" class="button" value="8" onclick='math("8")'>
 			<input type="button" class="button" value="9" onclick='math("9")'>
-			<input type="button" class="button" value="X" onclick='math("*")'>
+			<input type="button" class="button sign" value="X" onclick='math("*")'>
 		</p>
 
 		<p>
 			<input type="button" class="button" value="4" onclick='math("4")'>
 			<input type="button" class="button" value="5" onclick='math("5")'>
 			<input type="button" class="button" value="6" onclick='math("6")'>
-			<input type="button" class="button" value="-" onclick='math("-")'>
+			<input type="button" class="button sign" value="-" onclick='math("-")'>
 		</p>
 
 
@@ -40,22 +40,24 @@
 			<input type="button" class="button" value="1" onclick='math("1")'>
 			<input type="button" class="button" value="2" onclick='math("2")'>
 			<input type="button" class="button" value="3" onclick='math("3")'>
-			<input type="button" class="button" value="+" onclick='math("+")'>
+			<input type="button" class="button sign" value="+" onclick='math("+")'>
 		</p>
 
 		<p>
 			<input type="button" class="button zero" value="0" onclick='math("0")'>
 			<input type="button" class="button" value="." onclick='math(".")'>
-			<input type="button" class="button" value="=" onclick='e()'>
+			<input type="button" class="button sign" value="=" onclick='e()'>
 		</p>
 
 		</div>
 	</div>
-		<h2><center style="color:#fff;position: absolute;top: 250px;right:350px; "><u>My History</u></center></h2>
+	<div id="myHist">
+			<h2><center style="color:#fff;position: absolute;top: 250px;right:350px; "><u>My History</u></center></h2>
 
-		<!--<input type="button" value="clear" class="clearBtn" onclick="myClear()">-->
+			<!--<input type="button" value="clear" class="clearBtn" onclick="myClear()">-->
 
-	<div id="histogram">
+		<div id="histogram">
+		</div>
 	</div>
 </body>
 </html>
